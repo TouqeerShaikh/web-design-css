@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(4, 71, 73);
+    color: white;
+    display: flex;
+}
+.nav-left{
+    width: 50%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    margin-right: 10px ;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+li{
+    margin-right: 25px;
+    display: inline;
+    list-style-type: none;
+}
+.top{
+    width: 100%;
+    height: 30vh;
+    background-color: cadetblue;
+    display: flex;
+    
+}
+.contan{
+    position: absolute;
+    width: 20%;
+    height: 20vh;
+    margin: 5vh 0 0 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    text-align: left;
+    padding: 15px;
+}
+.contan p{
+    text-align: justify;
+    font-size: 11px;
+}
+.img{
+    width: 60%;
+    height: 30vh;
+    color: white;
+    display: flex;
+    margin: 5vh auto 0 auto;
+}
+.main-img{
+    width: 100%;
+    height: 30vh;
+    border: 5px solid white;
+}
+
+.mid{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(220, 227, 228);
+    display: flex;
+
+}
+.main{
+    margin: 7vh auto auto auto;
+    display: flex;
+    width: 60%;
+    height: 25vh;
+    justify-content: space-between;
+
+}
+.s-img{
+    width: 100%;
+    height: 14vh;
+}
+.s-img img{
+    width: 100%;
+    height: 14vh;
+    border: 3px solid white;
+}
+.section{
+    width: 23%;
+}
+.section h5{
+    font-size: 11px;
+    margin-top: 5px;
+}
+.section p{
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 8px;
+}
+.section button{
+    margin-top: 8px;
+    float: right;
+    padding: 5px 10px;
+    font-size: 6px;
+    background-color: rgb(132, 207, 20);
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.bottom{
+    width: 100%;
+    height: 33vh;
+    background-color: cadetblue;
+}
+.b-section1{
+    width: 35%;
+    color: white;
+}
+.b-main{
+    width: 60%;
+    height: 25vh;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.bs2{
+    width: 60%;
+}
+.b-s-1{
+    width: 100%;
+    height: 5vh;
+    padding-top: 2vh;
+}
+
+.bs2-main{
+    display: flex;
+}
+
+.b-s-2{
+    width: 50%;
+
+}
+.b-s-2 > img{
+    border: 3px solid black;
+    margin-top: 2vh;
+}
+.b-s-2 > p{
+    text-align: justify;
+    font-size: 11px;
+}
+.b-s-2 > button{
+    margin-top: 1vh;
+    padding: 5px 8px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.b-section2{
+    width: 35%;
+    color: white;
+    font-size: 11px;
+    padding-left: 2vw;
+    
+}
+.bs2-img{
+    width: 60%;
+    display: flex;
+    margin-left: 7vw;
+    
+}
+.bs2-img > img{
+    width: 20%;
+    height: 5vh;
+    margin-left: 5px;
+    float: left;
+    border-radius: 100px;
+}
+.bs2-img > p{
+    float: left;
+}
+.b-section2 > h5{
+    margin-top: 2vh
+}
+.b-section2 > p{
+    margin-top: 1.8vh;
+}
+.b-section3{
+    width: 30%;
+    font-size: 11px;
+    color: white;
+
+}
+.b-section3 > h5, p{
+    margin-top: 2vh;
+    margin-left: 5px;
+}
+.b-section3 > input{
+    margin-top: 2vh;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0.580);
+    border: none;
+    padding: 5px 10px;
+    font-size: 11px;
+}
+.b-section3 > input::placeholder{
+    color: white;
+}
+.b-section3 > button{
+    margin-top: 1vh;
+    margin-left: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.580);
+    border: none;
+    padding: 5px 10px;
+}
+.footer{
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(17, 58, 59);
+}
